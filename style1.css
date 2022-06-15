@@ -1,0 +1,73 @@
+.img{
+    margin-top: 50px;
+    display: flex;
+    height: 558px;
+    width: 1358px;
+    background: no-repeat;
+    background-size: cover;
+    justify-content: stretch;
+}
+.middle {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.middle p{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: hsl(204deg 15% 26%);
+    -webkit-background-clip: text;
+    background-image: url(17-02-20_13-54-05.jpg);
+    animation: 17-02-20_13-54-05 1s infinite;
+}
+
+.topnav{
+    margin-top: -595px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    background-color: #517a8c;
+    height: 40px;
+    width: 1358px;
+}
+.topnav a{
+    color: #fffffffa;
+    font-size: 30px;
+}
+body{
+    background-color: #5b99cc;
+    overflow: hidden;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100px;
+    background-color: red;;
+}
+form{
+    display: flex;
+    justify-content: center;
+    padding: 350px;
+}
+.in{
+    height: 20px;
+    width: 200px;
+    background-color: floralwhite;
+    font-size: unset;
+    font-style: italic;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.s{
+    width: 200px;
+    background-color: #d4a546;
+    padding: 5px;
+    margin: 3px;
+    font-size: unset;
+    font-style: italic;
+    border-radius: 10px;
+}
